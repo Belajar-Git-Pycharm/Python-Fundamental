@@ -7,3 +7,4 @@ l = 12
 luas_persegipanjang = p * l
 
 print (f'luas persegi panjang dengan panjang = {p}, lebar = {l}, adalah {luas_persegipanjang}')
+
