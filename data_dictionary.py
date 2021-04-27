@@ -29,7 +29,7 @@ data_dari_server_gojek = {
 }
 print(data_dari_server_gojek)
 print(f"\nDriver di sekitar sini {data_dari_server_gojek['driver_list']}")
-print(f"Driver #1 {data_dari_server_gojek['driver_list'][0]}")
+print(f"Driver #1 {data_dari_server_gojek['driver_list'][0]}, {data_dari_server_gojek['tanggal']}")
 print(f"Driver #2 {data_dari_server_gojek['driver_list'][1]}")
 print(f"Driver #3 {data_dari_server_gojek['driver_list'][2]}")
 print(f"Driver #4 {data_dari_server_gojek['driver_list'][3]}")
