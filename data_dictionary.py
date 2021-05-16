@@ -21,10 +21,10 @@ print(kamus['mother'])
 data_dari_server_gojek = {
     'tanggal' : '2021-04-06',
     'driver_list' : [
-        {'nama': 'Eko', 'jarak' : 10},
-        {'nama': 'Dwi', 'jarak' : 30},
-        {'nama': 'Tri', 'jarak' : 100},
-        {'nama': 'Catur', 'jarak' : 1000}
+        {'nama': 'Eko', 'jarak': 10, 'status': 'ojek'},
+        {'nama': 'Dwi', 'jarak': 30, 'status': 'gofood'},
+        {'nama': 'Tri', 'jarak': 100, 'status': 'gosend'},
+        {'nama': 'Catur', 'jarak': 1000, 'status': 'available'}
     ]
 }
 print(data_dari_server_gojek)
@@ -35,4 +35,7 @@ print(f"Driver #3 {data_dari_server_gojek['driver_list'][2]}")
 print(f"Driver #4 {data_dari_server_gojek['driver_list'][3]}")
 
 print(f"\nJarak driver terdekat {data_dari_server_gojek['driver_list'][0]['jarak']} meter")
+print(f"\nJarak driver terjauh {data_dari_server_gojek['driver_list'][3]['jarak']} meter, "
+      f"status : {data_dari_server_gojek['driver_list'][3]['status']}, "
+      f"nama : {data_dari_server_gojek['driver_list'][3]['nama']}")
 
